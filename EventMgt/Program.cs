@@ -14,7 +14,6 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
-// This is test comment for testing the commit and push functionality of GitHub
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
 options.UseSqlServer(
