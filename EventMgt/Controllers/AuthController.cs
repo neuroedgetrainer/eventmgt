@@ -11,7 +11,7 @@ namespace EventMgt.Controllers
     public class AuthController : BaseApiController
     {
         private readonly IUserService _userService;
-
+        // this is comment from local
         public AuthController(IUserService userService)
         {
             _userService = userService;
